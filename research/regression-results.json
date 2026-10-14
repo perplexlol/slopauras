@@ -1,0 +1,87 @@
+{
+  "runtime": "lupa 2.6 / Lua 5.1",
+  "limits": "WoW API stubs; modeled slot access timing only, no real secret values, native frame restrictions, or rendering.",
+  "lua_files_compiled": 36,
+  "observations": [
+    {
+      "name": "empty override group round-trip",
+      "status": "passed",
+      "details": "Explicit empty power/class overrides survive inheritance."
+    },
+    {
+      "name": "display export with/without group values",
+      "status": "passed",
+      "details": "Empty overrides survive transfer to a differently restricted group."
+    },
+    {
+      "name": "config and empty-target group round-trip",
+      "status": "passed",
+      "details": "Explicitly selecting no units stays empty instead of loading on player."
+    },
+    {
+      "name": "legacy empty-string class override",
+      "status": "passed",
+      "details": "Legacy all-classes override is exported as an empty list."
+    },
+    {
+      "name": "integer max import",
+      "status": "passed",
+      "details": "Fraction rejected; both integer boundaries accepted."
+    },
+    {
+      "name": "integer wrap import",
+      "status": "passed",
+      "details": "Fraction rejected; both integer boundaries accepted."
+    },
+    {
+      "name": "integer lineCap import",
+      "status": "passed",
+      "details": "Fraction rejected; both integer boundaries accepted."
+    },
+    {
+      "name": "integer layer and legacy lineMax",
+      "status": "passed",
+      "details": "Discrete group values reject fractions and accept bounds."
+    },
+    {
+      "name": "continuous settings retain fractions",
+      "status": "passed",
+      "details": "Pixel geometry and duration still accept fractional values."
+    },
+    {
+      "name": "empty spell-ID sets stay omitted",
+      "status": "passed",
+      "details": "No invalid empty ID lists introduced."
+    },
+    {
+      "name": "out-of-range size rejection",
+      "status": "passed",
+      "details": "Not imported. display.size: should be between 8 and 128"
+    },
+    {
+      "name": "unknown setting rejection",
+      "status": "passed",
+      "details": "Not imported. display: has a key SlopAuras doesn't know: \"unknown\""
+    },
+    {
+      "name": "rank expansion with exclusion",
+      "status": "passed",
+      "details": "All known ranks of 588 included; exact 1243 excluded."
+    },
+    {
+      "name": "legacy newline migration",
+      "status": "passed",
+      "details": "newLine converts into a break entry without dropping the display."
+    },
+    {
+      "name": "priority-stack fixture qualification",
+      "status": "passed",
+      "details": "Two ordered one-icon lines select stack; centered/multi-icon controls do not. No rendering or secrecy simulated."
+    },
+    {
+      "name": "priority-stack initialization access contract",
+      "status": "passed",
+      "details": "Actual stack code positions/levels before modeled restrictions; non-secret grow/shrink retains priority and spare slots. Not native secrecy/rendering."
+    }
+  ]
+}

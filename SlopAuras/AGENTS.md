@@ -147,6 +147,9 @@ below.
   window is ignored), is built as one container of aura slots (`Chain.NewStack`,
   `AddAuraSlot`): one button per display where an aura group makes ten. The slots sit on
   one spot, earlier displays on top, so it shows what the first-line window would.
+  Initial slot anchors and frame levels must be set inside `initializeFrame`, before
+  styling makes children and before Blizzard applies aura-secret access restrictions.
+  `LevelSlots` adjusts reused slots only during resizing outside secrecy.
   Whether a group qualifies is part of `BuildFlags`, since the edits that change it (Max
   icons shown, icon size) are sent as look changes.
 - **Displays that can't show on this character aren't built** (`Builds`: Never load, a
@@ -350,6 +353,9 @@ Use the labels exactly as below; they are what the player sees. The editor says 
 - Import is strict: every key must be in the spec tables (`SHARED`, `DISPLAY_ONLY`,
   `GROUP_ONLY`), Share.lua checks every value and range, and nothing changes until the
   whole string passes. Parsing uses `C_EncodingUtil`, so nothing pasted runs as code.
+  Icon counts (`max`, `wrap`, `lineCap`, legacy `lineMax`) and `layer` must be whole
+  numbers. Empty `class` and `unitPower` lists remain explicit overrides in exports;
+  an empty `target` list remains a group selecting no units.
 - JSON is the saved table (see "Saved keys") with these differences:
   - A config is `{ "groups": [ ... ] }`. Group names must be unique.
   - No `id`: the importer assigns one. A group needs `name`.
