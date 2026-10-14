@@ -48,8 +48,9 @@ preserving the import's all-or-nothing behavior. Review `layer` separately.
 
 Follow-up: the larger priority icon disappeared after the user reported a combat
 size change. A callback-timing regression failed before a local Chain.lua repair,
-then passed afterwards. The repair is installed; reload and native retesting are
-pending. See [priority-stack run](runs/2026-10-13-sharing/priority-stack.md).
+then passed afterwards. The repair is installed; on 2026-10-14 the user confirmed
+the supplied reload/combat-resize retest passed. That repair retest was user-reported,
+not independently captured. See [priority-stack run](runs/2026-10-13-sharing/priority-stack.md).
 
 Locations: `Chain.lua:1228` (`AddSlot`) and 1247 (`LevelSlots`). Slot anchoring and
 frame levels are set through `pcall` **after** `AddAuraSlot` returns. The pinned

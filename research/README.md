@@ -83,5 +83,6 @@ adds tested sharing fixes and drives the client; see its run record above.
 On 2026-10-14 the user authorized publishing our commits to the fork
 `https://github.com/perplexlol/slopauras`, on `fix/share-roundtrip-validation`.
 The current suite records 16 passing observations and compiles 36 addon Lua files.
-The stack initialization repair still needs a reload and native combat-resize retest.
+The user confirmed the supplied reload/combat-resize retest passed on 2026-10-14;
+this retest was user-reported, without an independent agent capture.
 No upstream pull request or recurring job has been created.

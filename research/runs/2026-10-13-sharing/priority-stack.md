@@ -2,7 +2,7 @@
 
 Client: Forever Beta 1.60.1.70338 / interface 16001; local sharing patch installed.
 Prepared 2026-10-13 around 16:17 PDT. A subsequent Chain.lua fix is installed;
-reload and client retesting remain pending while the user is AFK.
+the user subsequently confirmed the combat-resize retest passed on 2026-10-14.
 
 ## Fixture and offline check
 
@@ -86,3 +86,14 @@ reload. No further game input should be sent until they return.
 Resume: user runs /reload outside combat; confirm the larger icon returns. Then user
 repeats a combat shared-size change (64 to 48 or another value), and the agent observes
 whether the icon remains anchored, changes size and preserves shield priority.
+
+## User-confirmed repair retest, 2026-10-14 PDT
+
+The user was instructed to reload outside combat, confirm the larger icon, enter
+combat manually, cast Power Word: Shield on self, and change the shared icon size
+from 64 to 48 while fighting. They replied that it works totally fine.
+
+Result: user-reported pass of the supplied combat-resize procedure. The agent did
+not independently capture this retest, query restriction state, or inspect an error
+log. This closes the pending user-run acceptance check for this scenario; it does
+not establish PvP, other configurations, or universal secret-state compatibility.
