@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-13",
+  "wowless_commit": "f25a8db40c4dd6d6193ade67f2097b8184d77f36",
+  "product_build_yaml": "build: '69933'\ndate: Sep 18 2026\nhash: dcfc90fffd79ba00406ae46f5f657592\ntest: false\ntocversion: 120100\nversion: 12.1.0\n",
+  "method": "Conservative text scanner; impl-linked does not mean complete or faithful. No Wowless execution.",
+  "products": [
+    "wow",
+    "wow_anniversary",
+    "wow_classic",
+    "wow_classic_beta",
+    "wow_classic_era",
+    "wow_classic_era_ptr",
+    "wow_classic_ptr",
+    "wowt",
+    "wowxptr"
+  ],
+  "uiobject_types": {
+    "Frame": true,
+    "Button": true,
+    "Cooldown": true,
+    "AuraContainer": false,
+    "AuraButton": false
+  },
+  "core_api_calls": {
+    "C_ClassColor.GetClassColor": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "C_EncodingUtil.DeserializeJSON": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "C_EncodingUtil.SerializeJSON": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "C_EventUtils.IsEventValid": {
+      "status": "impl-linked",
+      "implementation": "C_EventUtils.IsEventValid"
+    },
+    "C_NamePlate.GetNamePlateForUnit": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "C_Secrets.ShouldAurasBeSecret": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "C_Spell.GetSpellName": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "C_Spell.GetSpellTexture": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "C_SpellBook.IsSpellKnown": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "C_StringUtil.CreateNumericRuleFormatter": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "C_Timer.After": {
+      "status": "impl-linked",
+      "implementation": "C_Timer.After"
+    },
+    "C_Timer.NewTicker": {
+      "status": "impl-linked",
+      "implementation": "C_Timer.NewTicker"
+    },
+    "C_UnitAuras.ResetAuraDataProvider": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "C_UnitAuras.SwitchAuraDataProvider": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "CreateFrame": {
+      "status": "impl-linked",
+      "implementation": "CreateFrame"
+    },
+    "CreateSecureDelegate": {
+      "status": "impl-linked",
+      "implementation": "CreateSecureDelegate"
+    },
+    "GetForbiddenObjectTable": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "InCombatLockdown": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "issecretvalue": {
+      "status": "generated-stub",
+      "implementation": null
+    },
+    "secretwrap": {
+      "status": "impl-linked",
+      "implementation": "secretwrap"
+    }
+  },
+  "critical_methods": {
+    "UIObject.AddAccessRestrictions": "generated-stub",
+    "UIObject.AddForbiddenAspects": "generated-stub",
+    "UIObject.AddSecretAspect": "generated-stub",
+    "Region.SetAlphaFromBoolean": "generated-stub",
+    "Cooldown.SetCooldownFromDurationObject": "generated-stub",
+    "Cooldown.SetCountdownFormatter": "generated-stub"
+  }
+}

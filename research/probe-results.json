@@ -1,0 +1,47 @@
+{
+  "runtime": "lupa 2.6 / Lua 5.1",
+  "limits": "WoW API stubs; no real secret values, frame restrictions, or rendering.",
+  "lua_files_compiled": 36,
+  "observations": [
+    {
+      "name": "empty override export round-trip",
+      "status": "reproduced",
+      "details": "Display unitPower={} and class={} disappear on export and inherit MANA / PRIEST after import."
+    },
+    {
+      "name": "fractional max import",
+      "status": "reproduced",
+      "details": "Importer accepts 1.5; discrete count semantics require review."
+    },
+    {
+      "name": "fractional wrap import",
+      "status": "reproduced",
+      "details": "Importer accepts 1.5; discrete count semantics require review."
+    },
+    {
+      "name": "fractional lineCap import",
+      "status": "reproduced",
+      "details": "Importer accepts 1.5; discrete count semantics require review."
+    },
+    {
+      "name": "out-of-range size rejection",
+      "status": "passed",
+      "details": "Not imported. display.size: should be between 8 and 128"
+    },
+    {
+      "name": "unknown setting rejection",
+      "status": "passed",
+      "details": "Not imported. display: has a key SlopAuras doesn't know: \"unknown\""
+    },
+    {
+      "name": "rank expansion with exclusion",
+      "status": "passed",
+      "details": "All known ranks of 588 included; exact 1243 excluded."
+    },
+    {
+      "name": "legacy newline migration",
+      "status": "passed",
+      "details": "newLine converts into a break entry without dropping the display."
+    }
+  ]
+}

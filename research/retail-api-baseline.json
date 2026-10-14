@@ -1,0 +1,3965 @@
+{
+  "commit": "09b9db7948abc9b9648dedaab51eb0cf3ee67b31",
+  "version": "12.1.0.69933",
+  "scanner": "Top-level function/event/table headers only; full file hashes detect other changes.",
+  "files": {
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/SecretPredicateAPIDocumentation.lua": {
+      "sha256": "01ec6fdea1aef17cc5603edae6f61f8922d5b2546fb9f3d551cf4d3e7c6a2bc8",
+      "headers": [
+        {
+          "name": "CanCompareUnitTokens",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetPowerTypeSecrecy",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellAuraSecrecy",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellCastSecrecy",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellCooldownSecrecy",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "HasSecretRestrictions",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "ShouldActionCooldownBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldAurasBeSecret",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "ShouldCooldownsBeSecret",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "ShouldSpellAuraBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldSpellBookItemCooldownBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldSpellCooldownBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldTotemSlotBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldTotemSpellBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldUnitAuraIndexBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldUnitAuraInstanceBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldUnitAuraSlotBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldUnitComparisonBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldUnitHealthMaxBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldUnitIdentityBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldUnitPowerBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldUnitPowerMaxBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldUnitSpellCastBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldUnitSpellCastingBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldUnitStatsBeSecret",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "ShouldUnitThreatStateBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ShouldUnitThreatValuesBeSecret",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        }
+      ]
+    },
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/SecretPredicatesDocumentation.lua": {
+      "sha256": "71793d2623f392033b832c9b9ce499168adf8a9002eddceef0d95078bcb79952",
+      "headers": [
+        {
+          "name": "RequiresComparableUnitTokens",
+          "Type": "\"Precondition\"",
+          "FailureMode": "\"ReturnNothing\""
+        },
+        {
+          "name": "RequiresDeclassifiedUnitIdentity",
+          "Type": "\"Precondition\"",
+          "FailureMode": "\"ReturnWithError\""
+        },
+        {
+          "name": "RequiresFontStringTextAccess",
+          "Type": "\"Precondition\"",
+          "FailureMode": "\"ReturnNothing\""
+        },
+        {
+          "name": "RequiresNonSecretAura",
+          "Type": "\"Precondition\""
+        },
+        {
+          "name": "RequiresScriptObjectAlphaAccess",
+          "Type": "\"Precondition\"",
+          "FailureMode": "\"ReturnWithError\""
+        },
+        {
+          "name": "RequiresScriptObjectDesaturationAccess",
+          "Type": "\"Precondition\"",
+          "FailureMode": "\"ReturnWithError\""
+        },
+        {
+          "name": "RequiresStatusBarDesaturationAccess",
+          "Type": "\"Precondition\"",
+          "FailureMode": "\"ReturnWithError\""
+        },
+        {
+          "name": "RequiresUnitAuraAccess",
+          "Type": "\"Precondition\"",
+          "FailureMode": "\"Error\""
+        },
+        {
+          "name": "RequiresUnitIdentityAccess",
+          "Type": "\"Precondition\"",
+          "FailureMode": "\"ReturnWithError\""
+        },
+        {
+          "name": "SecretInActivePvPMatch",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretInChatMessagingLockdown",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretOnRestrictedMaps",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenAnchoringSecret",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenUnitAuraRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenAurasRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenCooldownsRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenInCombat",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenLossOfControlInfoRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenTotemSlotSecret",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenUnitSpellCastRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenUnitComparisonRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenUnitHealthMaxRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenUnitIdentityRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenUnitNameIdentityRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenUnitPossessionRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenUnitPowerMaxRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenUnitPowerRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenUnitStatsRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenUnitThreatStateRestricted",
+          "Type": "\"Secret\""
+        },
+        {
+          "name": "SecretWhenUnitThreatValuesRestricted",
+          "Type": "\"Secret\""
+        }
+      ]
+    },
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/RestrictedActionsDocumentation.lua": {
+      "sha256": "b26826c2081edf8e7ce770f75911eebb43d55432c79f363440a48aa3bc1ea27a",
+      "headers": [
+        {
+          "name": "CheckAllowProtectedFunctions",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetAddOnRestrictionState",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "InCombatLockdown",
+          "Type": "\"Function\"",
+          "Namespace": "\"\""
+        },
+        {
+          "name": "IsAddOnRestrictionActive",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "AddonActionBlocked",
+          "Type": "\"Event\"",
+          "LiteralName": "\"ADDON_ACTION_BLOCKED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "AddonActionForbidden",
+          "Type": "\"Event\"",
+          "LiteralName": "\"ADDON_ACTION_FORBIDDEN\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "AddonRestrictionStateChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"ADDON_RESTRICTION_STATE_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "MacroActionBlocked",
+          "Type": "\"Event\"",
+          "LiteralName": "\"MACRO_ACTION_BLOCKED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "MacroActionForbidden",
+          "Type": "\"Event\"",
+          "LiteralName": "\"MACRO_ACTION_FORBIDDEN\"",
+          "SynchronousEvent": "true"
+        }
+      ]
+    },
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitDocumentation.lua": {
+      "sha256": "bc7fd554d45760061d699ff18ec9d9fec45b3b3796a9323d661e003dee5fdbe7",
+      "headers": [
+        {
+          "name": "CanEjectPassengerFromSeat",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "CanSwitchVehicleSeat",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "ClosestGameObjectPosition",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ClosestUnitPosition",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "CreateUnitHealPredictionCalculator",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "EjectPassengerFromSeat",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetComboPoints",
+          "Type": "\"Function\"",
+          "SecretWhenUnitPowerRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetNegativeCorruptionEffectInfo",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "GetUnitChargedPowerPoints",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretWhenUnitPowerRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitEmpowerHoldAtMaxTime",
+          "Type": "\"Function\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitEmpowerMinHoldTime",
+          "Type": "\"Function\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitEmpowerStageDuration",
+          "Type": "\"Function\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitHealthModifier",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitMaxHealthModifier",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitPowerBarInfo",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitPowerBarInfoByID",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitPowerBarStrings",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitPowerBarStringsByID",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitPowerBarTextureInfo",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitPowerBarTextureInfoByID",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitPowerModifier",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitSpeed",
+          "Type": "\"Function\"",
+          "SecretWhenUnitStatsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitTotalModifiedMaxHealthPercent",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetVehicleUIIndicator",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetVehicleUIIndicatorSeat",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsFalling",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsFlying",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsPlayerInGuildFromGUID",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSubmerged",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSwimming",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsUnitModelReadyForUI",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "PlayerIsPVPInactive",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "PlayerIsSpellTarget",
+          "Type": "\"Function\"",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "PlayerVehicleHasComboPoints",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "ReportPlayerIsPVPAFK",
+          "Type": "\"Function\"",
+          "HasRestrictions": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ResistancePercent",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "SetPortraitTexture",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "SetPortraitTextureFromCreatureDisplayID",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "SetUnitCursorTexture",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitAffectingCombat",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitAlliedRaceInfo",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitArmor",
+          "Type": "\"Function\"",
+          "SecretWhenUnitStatsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitAttackPower",
+          "Type": "\"Function\"",
+          "SecretWhenUnitStatsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitAttackSpeed",
+          "Type": "\"Function\"",
+          "SecretWhenUnitStatsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitBattlePetLevel",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitBattlePetSpeciesID",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitBattlePetType",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitCanAssist",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitCanAttack",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitCanCooperate",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitCanPetBattle",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitCastingDuration",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitCastingInfo",
+          "Type": "\"Function\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitChannelDuration",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitChannelInfo",
+          "Type": "\"Function\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitChromieTimeID",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitClass",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitClassBase",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitClassFromGUID",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "UnitClassification",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitControllingVehicle",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitCreatureFamily",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitCreatureID",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "RequiresUnitIdentityAccess": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitCreatureType",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitDamage",
+          "Type": "\"Function\"",
+          "SecretWhenUnitStatsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitDetailedThreatSituation",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretWhenUnitThreatValuesRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitDistanceSquared",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitEffectiveLevel",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitEmpoweredChannelDuration",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitEmpoweredStageDurations",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitEmpoweredStagePercentages",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitExists",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitFactionGroup",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitFullName",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitGUID",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitGetDetailedHealPrediction",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitGetIncomingHeals",
+          "Type": "\"Function\"",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitGetTotalAbsorbs",
+          "Type": "\"Function\"",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitGetTotalHealAbsorbs",
+          "Type": "\"Function\"",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitGroupRolesAssigned",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitGroupRolesAssignedEnum",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitHPPerStamina",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitHasPowerType",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitHasRelicSlot",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitHasVehiclePlayerFrameUI",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitHasVehicleUI",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitHealthMax",
+          "Type": "\"Function\"",
+          "SecretWhenUnitHealthMaxRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitHealthMissing",
+          "Type": "\"Function\"",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitHealthPercent",
+          "Type": "\"Function\"",
+          "SecretWhenCurveSecret": "true",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitHealth",
+          "Type": "\"Function\"",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitHonor",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitHonorLevel",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitHonorMax",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitInAnyGroup",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitInBattleground",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitInOtherParty",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitInParty",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitInPartyIsAI",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitInPartyShard",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitInRaid",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitInRange",
+          "Type": "\"Function\"",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitInSubgroup",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitInVehicle",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitInVehicleControlSeat",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitInVehicleHidesPetFrame",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsAFK",
+          "Type": "\"Function\"",
+          "SecretInChatMessagingLockdown": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsBattlePet",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsBattlePetCompanion",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsBossMob",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsCharmed",
+          "Type": "\"Function\"",
+          "SecretWhenUnitPossessionRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsConnected",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsControlling",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsCorpse",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsDND",
+          "Type": "\"Function\"",
+          "SecretInChatMessagingLockdown": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsDead",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsDeadOrGhost",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsEnemy",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsFeignDeath",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsFriend",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsGameObject",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsGhost",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsGroupAssistant",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsGroupLeader",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsHumanPlayer",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsInMyGuild",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsInteractable",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsLieutenant",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsMercenary",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsMinion",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsNPCAsPlayer",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsOtherPlayersBattlePet",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsOtherPlayersPet",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsOwnerOrControllerOfUnit",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsPVP",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsPVPFreeForAll",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsPVPSanctuary",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsPlayer",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsPlayerControlledOrGroupMember",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsPossessed",
+          "Type": "\"Function\"",
+          "SecretWhenUnitPossessionRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsQuestBoss",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsRaidOfficer",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsSameServer",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsTapDenied",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsTrivial",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsUnconscious",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsUnit",
+          "Type": "\"Function\"",
+          "RequiresComparableUnitTokens": "true",
+          "SecretWhenUnitComparisonRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsVisible",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitIsWildBattlePet",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitLeadsAnyGroup",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitLevel",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitName",
+          "Type": "\"Function\"",
+          "SecretWhenUnitNameIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "UnitNameFromGUID",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "UnitNameUnmodified",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitNameplateShowsWidgetsOnly",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitNumPowerBarTimers",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitOnTaxi",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitOwnerGUID",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPVPName",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPartialPower",
+          "Type": "\"Function\"",
+          "SecretWhenUnitPowerRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPercentHealthFromGUID",
+          "Type": "\"Function\"",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "UnitPhaseReason",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPlayerControlled",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPlayerOrPetInParty",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPlayerOrPetInRaid",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPosition",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPower",
+          "Type": "\"Function\"",
+          "SecretWhenUnitPowerRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPowerBarID",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPowerBarTimerInfo",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPowerDisplayMod",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPowerMax",
+          "Type": "\"Function\"",
+          "SecretWhenUnitPowerMaxRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPowerMissing",
+          "Type": "\"Function\"",
+          "SecretWhenUnitPowerRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPowerPercent",
+          "Type": "\"Function\"",
+          "SecretWhenUnitPowerRestricted": "true",
+          "SecretWhenCurveSecret": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPowerType",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitPvpClassification",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitQuestTrivialLevelRange",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitQuestTrivialLevelRangeScaling",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitRace",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitRangedAttackPower",
+          "Type": "\"Function\"",
+          "SecretWhenUnitStatsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitRangedDamage",
+          "Type": "\"Function\"",
+          "SecretWhenUnitStatsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitReaction",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitRealmRelationship",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitSelectionColor",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitSelectionType",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitSex",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitSexBase",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitShouldDisplayName",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitShouldDisplaySpellTargetName",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitSpellHaste",
+          "Type": "\"Function\"",
+          "SecretWhenUnitStatsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitSpellTargetClass",
+          "Type": "\"Function\"",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitSpellTargetName",
+          "Type": "\"Function\"",
+          "SecretReturns": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitStagger",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitStat",
+          "Type": "\"Function\"",
+          "SecretWhenUnitStatsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitSwitchToVehicleSeat",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitTargetsVehicleInRaidUI",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitThreatLeadSituation",
+          "Type": "\"Function\"",
+          "SecretWhenUnitThreatStateRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitThreatPercentageOfLead",
+          "Type": "\"Function\"",
+          "SecretWhenUnitThreatValuesRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitThreatSituation",
+          "Type": "\"Function\"",
+          "SecretWhenUnitThreatStateRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitTokenFromGUID",
+          "Type": "\"Function\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "UnitTreatAsPlayerForDisplay",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitTrialBankedLevels",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitTrialXP",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitUsingVehicle",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitVehicleSeatCount",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitVehicleSeatInfo",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitVehicleSkin",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitWeaponAttackPower",
+          "Type": "\"Function\"",
+          "SecretWhenUnitStatsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitWidgetSet",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitXP",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnitXPMax",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "WorldLootObjectExists",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ActivePlayerSpecializationChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"ACTIVE_PLAYER_SPECIALIZATION_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "ArenaCooldownsUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"ARENA_COOLDOWNS_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "ArenaCrowdControlSpellUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"ARENA_CROWD_CONTROL_SPELL_UPDATE\"",
+          "SecretWhenLossOfControlInfoRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "AutofollowBegin",
+          "Type": "\"Event\"",
+          "LiteralName": "\"AUTOFOLLOW_BEGIN\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "AutofollowEnd",
+          "Type": "\"Event\"",
+          "LiteralName": "\"AUTOFOLLOW_END\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "CancelSummon",
+          "Type": "\"Event\"",
+          "LiteralName": "\"CANCEL_SUMMON\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "ComboTargetChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"COMBO_TARGET_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "ConfirmBinder",
+          "Type": "\"Event\"",
+          "LiteralName": "\"CONFIRM_BINDER\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "ConfirmSummon",
+          "Type": "\"Event\"",
+          "LiteralName": "\"CONFIRM_SUMMON\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "EclipseDirectionChange",
+          "Type": "\"Event\"",
+          "LiteralName": "\"ECLIPSE_DIRECTION_CHANGE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "HearthstoneBound",
+          "Type": "\"Event\"",
+          "LiteralName": "\"HEARTHSTONE_BOUND\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "HonorXpUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"HONOR_XP_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "IncomingResurrectChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"INCOMING_RESURRECT_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "IncomingSummonChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"INCOMING_SUMMON_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "KnownTitlesUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"KNOWN_TITLES_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "LocalplayerPetRenamed",
+          "Type": "\"Event\"",
+          "LiteralName": "\"LOCALPLAYER_PET_RENAMED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "MirrorTimerPause",
+          "Type": "\"Event\"",
+          "LiteralName": "\"MIRROR_TIMER_PAUSE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "MirrorTimerStart",
+          "Type": "\"Event\"",
+          "LiteralName": "\"MIRROR_TIMER_START\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "MirrorTimerStop",
+          "Type": "\"Event\"",
+          "LiteralName": "\"MIRROR_TIMER_STOP\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "NeutralFactionSelectResult",
+          "Type": "\"Event\"",
+          "LiteralName": "\"NEUTRAL_FACTION_SELECT_RESULT\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "ObjectEnteredAOI",
+          "Type": "\"Event\"",
+          "LiteralName": "\"OBJECT_ENTERED_AOI\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "ObjectLeftAOI",
+          "Type": "\"Event\"",
+          "LiteralName": "\"OBJECT_LEFT_AOI\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PartyKill",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PARTY_KILL\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PetBarUpdateUsable",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PET_BAR_UPDATE_USABLE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PetUiUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PET_UI_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerCanGlideChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_CAN_GLIDE_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerDamageDoneMods",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_DAMAGE_DONE_MODS\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerEnterCombat",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_ENTER_COMBAT\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerFarsightFocusChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_FARSIGHT_FOCUS_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerFlagsChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_FLAGS_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerFocusChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_FOCUS_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerImpulseApplied",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_IMPULSE_APPLIED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerIsGlidingChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_IS_GLIDING_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerLeaveCombat",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_LEAVE_COMBAT\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerLevelChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_LEVEL_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerLevelUp",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_LEVEL_UP\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerMaxLevelUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_MAX_LEVEL_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerMountDisplayChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_MOUNT_DISPLAY_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerPvpKillsChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_PVP_KILLS_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerPvpRankChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_PVP_RANK_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerRegenDisabled",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_REGEN_DISABLED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerRegenEnabled",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_REGEN_ENABLED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerSoftEnemyChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_SOFT_ENEMY_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerSoftFriendChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_SOFT_FRIEND_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerSoftInteractChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_SOFT_INTERACT_CHANGED\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerSoftTargetInteraction",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_SOFT_TARGET_INTERACTION\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerSpecializationChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_SPECIALIZATION_CHANGED\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "PlayerStartedLooking",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_STARTED_LOOKING\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerStartedMoving",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_STARTED_MOVING\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerStartedTurning",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_STARTED_TURNING\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerStoppedLooking",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_STOPPED_LOOKING\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerStoppedMoving",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_STOPPED_MOVING\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerStoppedTurning",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_STOPPED_TURNING\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerTargetChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_TARGET_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerTrialXpUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_TRIAL_XP_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerUpdateResting",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_UPDATE_RESTING\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerXpUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_XP_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PortraitsUpdated",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PORTRAITS_UPDATED\"",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "ProvingGroundsScoreUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PROVING_GROUNDS_SCORE_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PvpTimerUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PVP_TIMER_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "RunePowerUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"RUNE_POWER_UPDATE\"",
+          "SecretPayloads": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "RuneTypeUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"RUNE_TYPE_UPDATE\"",
+          "SecretPayloads": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "ShowFactionSelectUi",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SHOW_FACTION_SELECT_UI\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "SpellConfirmationPrompt",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_CONFIRMATION_PROMPT\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "SpellConfirmationTimeout",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_CONFIRMATION_TIMEOUT\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitAbsorbAmountChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_ABSORB_AMOUNT_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitAreaChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_AREA_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitArenaCooldownsUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_ARENA_COOLDOWNS_UPDATE\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UnitAttack",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_ATTACK\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitAttackPower",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_ATTACK_POWER\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitAttackSpeed",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_ATTACK_SPEED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitCheatToggleEvent",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_CHEAT_TOGGLE_EVENT\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitClassificationChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_CLASSIFICATION_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitCombat",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_COMBAT\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitConnection",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_CONNECTION\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitCtrOptions",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_CTR_OPTIONS\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitDamage",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_DAMAGE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitDefense",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_DEFENSE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitDied",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_DIED\"",
+          "SecretWhenUnitIdentityRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitDisplaypower",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_DISPLAYPOWER\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitDistanceCheckUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_DISTANCE_CHECK_UPDATE\"",
+          "SecretPayloads": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitFaction",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_FACTION\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitFlags",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_FLAGS\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitFormChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_FORM_CHANGED\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UnitHealAbsorbAmountChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_HEAL_ABSORB_AMOUNT_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitHealPrediction",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_HEAL_PREDICTION\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitHealth",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_HEALTH\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UnitInRangeUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_IN_RANGE_UPDATE\"",
+          "SecretPayloads": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitInventoryChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_INVENTORY_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitLevel",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_LEVEL\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UnitLoot",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_LOOT\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitMana",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_MANA\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitMaxHealthModifiersChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_MAX_HEALTH_MODIFIERS_CHANGED\"",
+          "SecretPayloads": "true",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UnitMaxhealth",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_MAXHEALTH\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UnitMaxpower",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_MAXPOWER\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitModelChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_MODEL_CHANGED\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UnitNameUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_NAME_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitOtherPartyChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_OTHER_PARTY_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitPet",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_PET\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitPetExperience",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_PET_EXPERIENCE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitPhase",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_PHASE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitPortraitUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_PORTRAIT_UPDATE\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UnitPowerBarHide",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_POWER_BAR_HIDE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitPowerBarShow",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_POWER_BAR_SHOW\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitPowerBarTimerUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_POWER_BAR_TIMER_UPDATE\"",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UnitPowerFrequent",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_POWER_FREQUENT\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitPowerPointCharge",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_POWER_POINT_CHARGE\"",
+          "SecretWhenUnitPowerRestricted": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UnitPowerUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_POWER_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitQuestLogChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_QUEST_LOG_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitRangedAttackPower",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_RANGED_ATTACK_POWER\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitRangeddamage",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_RANGEDDAMAGE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitResistances",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_RESISTANCES\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellHaste",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELL_HASTE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastChannelStart",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_CHANNEL_START\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastChannelStop",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_CHANNEL_STOP\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastChannelUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_CHANNEL_UPDATE\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastDelayed",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_DELAYED\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastEmpowerStart",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_EMPOWER_START\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastEmpowerStop",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_EMPOWER_STOP\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastEmpowerUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_EMPOWER_UPDATE\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastFailed",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_FAILED\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastFailedQuiet",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_FAILED_QUIET\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastInterrupted",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_INTERRUPTED\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastInterruptible",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_INTERRUPTIBLE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastNotInterruptible",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_NOT_INTERRUPTIBLE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastReticleClear",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_RETICLE_CLEAR\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastReticleTarget",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_RETICLE_TARGET\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastSent",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_SENT\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastStart",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_START\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastStop",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_STOP\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitSpellcastSucceeded",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_SPELLCAST_SUCCEEDED\"",
+          "SecretWhenUnitSpellCastRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitStats",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_STATS\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitTarget",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_TARGET\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitTargetableChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_TARGETABLE_CHANGED\"",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UnitThreatListUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_THREAT_LIST_UPDATE\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UnitThreatSituationUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_THREAT_SITUATION_UPDATE\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UpdateExhaustion",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UPDATE_EXHAUSTION\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UpdateMouseoverUnit",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UPDATE_MOUSEOVER_UNIT\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UpdateStealth",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UPDATE_STEALTH\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "VehicleAngleUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"VEHICLE_ANGLE_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PhaseReason",
+          "Type": "\"Enumeration\""
+        },
+        {
+          "name": "PvPUnitClassification",
+          "Type": "\"Enumeration\""
+        },
+        {
+          "name": "CorruptionEffectInfo",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "UnitCastingInfoResult",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "UnitChannelInfoResult",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "UnitCreatureFamilyResult",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "UnitCreatureTypeResult",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "UnitPowerBarInfo",
+          "Type": "\"Structure\""
+        }
+      ]
+    },
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitAuraDocumentation.lua": {
+      "sha256": "39405809f92e74a945034529d2a2962ebebe9a70fe581b2f411586fc2b72d5d5",
+      "headers": [
+        {
+          "name": "AddAuraSound",
+          "Type": "\"Function\"",
+          "HasRestrictions": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "AddBlockedAura",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "AddPrivateAuraAnchor",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "AuraIsBigDefensive",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "AuraIsPrivate",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "CancelAuraByInstanceID",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "HasRestrictions": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ClearBlockedAuras",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "DoesAuraHaveExpirationTime",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "RequiresValidUnitAuraInstance": "true",
+          "SecretWhenUnitAuraRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetAuraApplicationDisplayCount",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "RequiresValidUnitAuraInstance": "true",
+          "SecretWhenUnitAuraRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetAuraBaseDuration",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "RequiresValidUnitAuraInstance": "true",
+          "SecretWhenUnitAuraRestricted": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetAuraDataByAuraInstanceID",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "SecretWhenUnitAuraRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetAuraDataByIndex",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "SecretWhenUnitAuraRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetAuraDataBySlot",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "SecretWhenUnitAuraRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetAuraDataBySpellName",
+          "Type": "\"Function\"",
+          "SecretWhenUnitAuraRestricted": "true",
+          "RequiresNonSecretAura": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetAuraDispelTypeColor",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "RequiresValidUnitAuraInstance": "true",
+          "SecretWhenUnitAuraRestricted": "true",
+          "SecretWhenCurveSecret": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetAuraDuration",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "RequiresValidUnitAuraInstance": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetAuraSlots",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetBuffDataByIndex",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "SecretWhenUnitAuraRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetCooldownAuraBySpellID",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetDebuffDataByIndex",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "SecretWhenUnitAuraRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetGroupBuffVisualAlerts",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "GetHiddenGroupBuffs",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "GetPlayerAuraBySpellID",
+          "Type": "\"Function\"",
+          "SecretWhenUnitAuraRestricted": "true",
+          "RequiresNonSecretAura": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetRefreshExtendedDuration",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "RequiresValidUnitAuraInstance": "true",
+          "SecretWhenUnitAuraRestricted": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetUnitAuraBySpellID",
+          "Type": "\"Function\"",
+          "SecretWhenUnitAuraRestricted": "true",
+          "RequiresNonSecretAura": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetUnitAuraInstanceIDs",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetUnitAuras",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsAuraFilteredOutByInstanceID",
+          "Type": "\"Function\"",
+          "RequiresUnitAuraAccess": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "RemoveAuraSound",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "RemovePrivateAuraAnchor",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ResetAuraDataProvider",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "SetGroupBuffVisualAlerts",
+          "Type": "\"Function\"",
+          "HasRestrictions": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "SetHiddenGroupBuffs",
+          "Type": "\"Function\"",
+          "HasRestrictions": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "SetPrivateWarningTextAnchor",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "SwitchAuraDataProvider",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "WantsAlteredForm",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "AuraDataProviderSwitch",
+          "Type": "\"Event\"",
+          "LiteralName": "\"AURA_DATA_PROVIDER_SWITCH\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "GroupBuffVisualAlertsChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"GROUP_BUFF_VISUAL_ALERTS_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "HiddenGroupBuffsChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"HIDDEN_GROUP_BUFFS_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitAura",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_AURA\"",
+          "SecretWhenAurasRestricted": "true",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitAuraBlockListCleared",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_AURA_BLOCK_LIST_CLEARED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UnitAuraBlocked",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UNIT_AURA_BLOCKED\"",
+          "SynchronousEvent": "true"
+        }
+      ]
+    },
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellDocumentation.lua": {
+      "sha256": "fbedb3cf4b82d623b49a7fa170c982de2e4b005d2bcd5db3068bfb6211e51007",
+      "headers": [
+        {
+          "name": "CancelSpellByID",
+          "Type": "\"Function\"",
+          "HasRestrictions": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "DoesSpellExist",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "EnableSpellRangeCheck",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetAuraStatChanges",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetBaseSpell",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetDeadlyDebuffInfo",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetItemModifiedAppearancesApplied",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetLastCategoryCooldownSource",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretWhenCooldownsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetMawPowerLinkBySpellID",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetMawPowerRarityInfoBySpellID",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetOverrideSpell",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSchoolString",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellAutoCast",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellCastCount",
+          "Type": "\"Function\"",
+          "SecretWhenCooldownsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellChargeDuration",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellCharges",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretWhenCooldownsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellCooldown",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretWhenCooldownsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellCooldownDuration",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellDescription",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellDescriptionForItemLocation",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellDisplayCount",
+          "Type": "\"Function\"",
+          "SecretWhenCooldownsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellIDForSpellIdentifier",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellInfo",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellLevelLearned",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellLink",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellLossOfControlCooldownDuration",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellLossOfControlCooldownInfo",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretWhenCooldownsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellMaxCumulativeAuraApplications",
+          "Type": "\"Function\"",
+          "SecretWhenUnitAuraRestricted": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellName",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellPowerCost",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellQueueWindow",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "GetSpellSkillLineAbilityRank",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellSubtext",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellTexture",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetSpellTradeSkillLink",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "GetVisibilityInfo",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsAutoAttackSpell",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsAutoRepeatSpell",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsClassTalentSpell",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsConsumableSpell",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsCurrentSpell",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsExternalDefensive",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsPressHoldReleaseSpell",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsPriorityAura",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsPvPTalentSpell",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsRangedAutoAttackSpell",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsSelfBuff",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSpellCrowdControl",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsSpellDataCached",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSpellDisabled",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsSpellHarmful",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsSpellHelpful",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsSpellImportant",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsSpellInRange",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsSpellPassive",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "IsSpellUsable",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "PickupSpell",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "RequestLoadSpellData",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "SetSpellAutoCastEnabled",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "SpellHasRange",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenTainted\""
+        },
+        {
+          "name": "TargetSpellChecksItemCondition",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "TargetSpellIsEnchanting",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "TargetSpellJumpsUpgradeTrack",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "TargetSpellReplacesBonusTree",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "ToggleSpellAutoCast",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "EnchantSpellCompleted",
+          "Type": "\"Event\"",
+          "LiteralName": "\"ENCHANT_SPELL_COMPLETED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "EnchantSpellSelected",
+          "Type": "\"Event\"",
+          "LiteralName": "\"ENCHANT_SPELL_SELECTED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "SpellDataLoadResult",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_DATA_LOAD_RESULT\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "SpellRangeCheckUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_RANGE_CHECK_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "SpellTextUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_TEXT_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UpdateSpellTargetItemContext",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UPDATE_SPELL_TARGET_ITEM_CONTEXT\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "DeadlyDebuffInfo",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "PowerTypeChange",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "SpellInfo",
+          "Type": "\"Structure\""
+        }
+      ]
+    },
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellBookDocumentation.lua": {
+      "sha256": "526e806e3602454d3ccdaba874b9294accb7b0ed56db32adab306cc639dd24b9",
+      "headers": [
+        {
+          "name": "CastSpellBookItem",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ContainsAnyDisenchantSpell",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "FindBaseSpellByID",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "FindFlyoutSlotBySpellID",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "FindSpellBookSlotForSpell",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "FindSpellOverrideByID",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetCurrentLevelSpells",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetNumSpellBookSkillLines",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "GetSkillLineIndexByID",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemAutoCast",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemCastCount",
+          "Type": "\"Function\"",
+          "SecretWhenCooldownsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemChargeDuration",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemCharges",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretWhenCooldownsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemCooldown",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretWhenCooldownsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemCooldownDuration",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemDescription",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemInfo",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemLevelLearned",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemLink",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemLossOfControlCooldownDuration",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemLossOfControlCooldownInfo",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretWhenCooldownsRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemName",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemPowerCost",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemSkillLineIndex",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemTexture",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemTradeSkillLink",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookItemType",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSpellBookSkillLineInfo",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "HasPetSpells",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true"
+        },
+        {
+          "name": "IsAutoAttackSpellBookItem",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsClassTalentSpellBookItem",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsPvPTalentSpellBookItem",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsRangedAutoAttackSpellBookItem",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSpellBookItemHarmful",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSpellBookItemHelpful",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSpellBookItemInRange",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSpellBookItemOffSpec",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSpellBookItemPassive",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSpellBookItemUsable",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSpellInSpellBook",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSpellKnown",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsSpellKnownOrInSpellBook",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "PickupSpellBookItem",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "SetSpellBookItemAutoCastEnabled",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "SpellBookItemHasRange",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ToggleSpellBookItemAutoCast",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "CurrentSpellCastChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"CURRENT_SPELL_CAST_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "LearnedSpellInSkillLine",
+          "Type": "\"Event\"",
+          "LiteralName": "\"LEARNED_SPELL_IN_SKILL_LINE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "MaxSpellStartRecoveryOffsetChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"MAX_SPELL_START_RECOVERY_OFFSET_CHANGED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerTotemUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_TOTEM_UPDATE\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "SpellFlyoutUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_FLYOUT_UPDATE\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "SpellPushedToActionbar",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_PUSHED_TO_ACTIONBAR\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "SpellPushedToFlyoutOnActionbar",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_PUSHED_TO_FLYOUT_ON_ACTIONBAR\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "SpellUpdateCharges",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_UPDATE_CHARGES\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "SpellUpdateCooldown",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_UPDATE_COOLDOWN\"",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "SpellUpdateIcon",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_UPDATE_ICON\"",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "SpellUpdateUsable",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_UPDATE_USABLE\"",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "SpellUpdateUses",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELL_UPDATE_USES\"",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "SpellsChanged",
+          "Type": "\"Event\"",
+          "LiteralName": "\"SPELLS_CHANGED\"",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "StartAutorepeatSpell",
+          "Type": "\"Event\"",
+          "LiteralName": "\"START_AUTOREPEAT_SPELL\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "StopAutorepeatSpell",
+          "Type": "\"Event\"",
+          "LiteralName": "\"STOP_AUTOREPEAT_SPELL\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UpdateShapeshiftCooldown",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UPDATE_SHAPESHIFT_COOLDOWN\"",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UpdateShapeshiftForm",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UPDATE_SHAPESHIFT_FORM\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "UpdateShapeshiftForms",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UPDATE_SHAPESHIFT_FORMS\"",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "UpdateShapeshiftUsable",
+          "Type": "\"Event\"",
+          "LiteralName": "\"UPDATE_SHAPESHIFT_USABLE\"",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "SpellBookItemInfo",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "SpellBookSkillLineInfo",
+          "Type": "\"Structure\""
+        }
+      ]
+    },
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/LossOfControlDocumentation.lua": {
+      "sha256": "b54df3a5a676a3aafca028febb92773f856b366f43063f099ab57fa44fe9fc31",
+      "headers": [
+        {
+          "name": "GetActiveLossOfControlData",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetActiveLossOfControlDataByUnit",
+          "Type": "\"Function\"",
+          "SecretWhenLossOfControlInfoRestricted": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetActiveLossOfControlDataCount",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "GetActiveLossOfControlDataCountByUnit",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetActiveLossOfControlDuration",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "LossOfControlAdded",
+          "Type": "\"Event\"",
+          "LiteralName": "\"LOSS_OF_CONTROL_ADDED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "LossOfControlCommentatorAdded",
+          "Type": "\"Event\"",
+          "LiteralName": "\"LOSS_OF_CONTROL_COMMENTATOR_ADDED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "LossOfControlCommentatorUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"LOSS_OF_CONTROL_COMMENTATOR_UPDATE\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "LossOfControlUpdate",
+          "Type": "\"Event\"",
+          "LiteralName": "\"LOSS_OF_CONTROL_UPDATE\"",
+          "SynchronousEvent": "true",
+          "UniqueEvent": "true"
+        },
+        {
+          "name": "PlayerControlGained",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_CONTROL_GAINED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "PlayerControlLost",
+          "Type": "\"Event\"",
+          "LiteralName": "\"PLAYER_CONTROL_LOST\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "LossOfControlData",
+          "Type": "\"Structure\""
+        }
+      ]
+    },
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/CooldownViewerDocumentation.lua": {
+      "sha256": "106527f9cd46202739d49c4494863621ed508925033233fe5e27888d69cf8095",
+      "headers": [
+        {
+          "name": "GetCooldownViewerCategorySet",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetCooldownViewerCooldownInfo",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetGroupBuffItems",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "GetLayoutData",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "GetValidAlertTypes",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "IsCooldownViewerAvailable",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "SetLayoutData",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "CooldownViewerDataLoaded",
+          "Type": "\"Event\"",
+          "LiteralName": "\"COOLDOWN_VIEWER_DATA_LOADED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "CooldownViewerSpellOverrideUpdated",
+          "Type": "\"Event\"",
+          "LiteralName": "\"COOLDOWN_VIEWER_SPELL_OVERRIDE_UPDATED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "CooldownViewerTableHotfixed",
+          "Type": "\"Event\"",
+          "LiteralName": "\"COOLDOWN_VIEWER_TABLE_HOTFIXED\"",
+          "SynchronousEvent": "true"
+        },
+        {
+          "name": "CooldownViewerCooldown",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "GroupBuffItem",
+          "Type": "\"Structure\""
+        }
+      ]
+    },
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/AuraContainerUtilDocumentation.lua": {
+      "sha256": "210575c98ebb37e391d6b3be4791780744aa7d1bae77514af0b6aeae35e69cab",
+      "headers": [
+        {
+          "name": "ProcessAuraTooltipBackdropOptions",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ProcessAuraTooltipNineSliceOptions",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ProcessAuraTooltipTextureSliceOptions",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ProcessCustomAuraButtonApplicationBarOptions",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ProcessCustomAuraButtonApplicationCountOptions",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ProcessCustomAuraButtonDispelTypeTextOptions",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ProcessCustomAuraButtonDispelTypeTextureOptions",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ProcessCustomAuraButtonDurationBarOptions",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "ProcessCustomAuraButtonDurationTextOptions",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "AuraContainerTooltipAnchorOffsets",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "AuraContainerTooltipBackdropInfo",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "AuraContainerTooltipBackdropInsets",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "AuraContainerTooltipBackdropOptions",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "AuraContainerTooltipNineSliceOptions",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "AuraContainerTooltipTextureSliceOptions",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "CustomAuraButtonApplicationBarOptions",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "CustomAuraButtonApplicationCountOptions",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "CustomAuraButtonDispelTypeTextOptions",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "CustomAuraButtonDispelTypeTextureAsset",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "CustomAuraButtonDispelTypeTextureOptions",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "CustomAuraButtonDispelTypeTextureTexCoords",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "CustomAuraButtonDurationBarOptions",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "CustomAuraButtonDurationTextOptions",
+          "Type": "\"Structure\""
+        }
+      ]
+    },
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/DurationTextBindingSharedDocumentation.lua": {
+      "sha256": "6a999bee8139b767c8d805fb967c3850990def190011200a323fa21068724838",
+      "headers": [
+        {
+          "name": "DurationTextBindingProperty",
+          "Type": "\"Enumeration\""
+        },
+        {
+          "name": "DurationTextBindingColorOptions",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "DurationTextBindingFormatComponent",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "DurationTextBindingFormatOptions",
+          "Type": "\"Structure\""
+        }
+      ]
+    },
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/FrameScriptDocumentation.lua": {
+      "sha256": "00f538cb711b5baa0a7f819fae4b038c9189e234ac70c1aaf8c51e4d9335628c",
+      "headers": [
+        {
+          "name": "AddSourceLocationExclude",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "canaccessallvalues",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "canaccesssecrets",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false"
+        },
+        {
+          "name": "canaccesstable",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "canaccessvalue",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "CreateFromMixins",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "CreateSecureDelegate",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "HasRestrictions": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "CreateWindow",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "dropsecretaccess",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false"
+        },
+        {
+          "name": "dumpobject",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetCallstackHeight",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "GetCurrentEventID",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "GetErrorCallstackHeight",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "GetEventTime",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetForbiddenObjectTable",
+          "Type": "\"Function\"",
+          "Environment": "\"SecureOnly\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "GetSourceLocation",
+          "Type": "\"Function\"",
+          "MayReturnNothing": "true"
+        },
+        {
+          "name": "hasanysecretvalues",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "issecrettable",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "issecretvalue",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "mapvalues",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "Mixin",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "RegisterEventCallback",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "RegisterUnitEventCallback",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "RunScript",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "scrubsecretvalues",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "scrub",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "secretunwrap",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "HasRestrictions": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "secretwrap",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "securecallmethod",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "securecopy",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "SetErrorCallstackHeight",
+          "Type": "\"Function\"",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "settablesecurity",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "HasRestrictions": "true",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnregisterEventCallback",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "UnregisterUnitEventCallback",
+          "Type": "\"Function\"",
+          "SecureHooksAllowed": "false",
+          "SecretArguments": "\"AllowedWhenUntainted\""
+        },
+        {
+          "name": "debugprofilestart",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "debugprofilestop",
+          "Type": "\"Function\""
+        },
+        {
+          "name": "TableSecurityOption",
+          "Type": "\"Enumeration\""
+        },
+        {
+          "name": "SecureCopyOptions",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "SecureDelegateOptions",
+          "Type": "\"Structure\""
+        },
+        {
+          "name": "EventCallbackType",
+          "Type": "\"CallbackType\""
+        }
+      ]
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraButton.lua": {
+      "sha256": "2b42f37f9ca22718ec4c35088d4723cbd8bbe1338fb4f78d2f57c8b5f949b8aa"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainer.lua": {
+      "sha256": "fe6be31c29bb469e59243a9e47b4bf38d85d79867b72f7513c4759d3c736c656"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua": {
+      "sha256": "83a84f909e79c2d9b36016c2783e95f74f34abe504321e4a6a898f642172831b"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerFlowLayout.lua": {
+      "sha256": "7c877e09dd34108b8c03928a0c256538af15646ffc765599ab9feb2c421cd9c0"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerFrameProviders.lua": {
+      "sha256": "2d1e3f6486636b7a285978aa6ee240205aacb38a5c255c23cfb294987192925e"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerGroups.lua": {
+      "sha256": "395048cee2c633f0cac9c2c364f48118249bf83b4117f822d4c7710149a07cd5"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerInbound.lua": {
+      "sha256": "82198f2d69e86f692b163f2224c40ddc475ec4a84a3fd929077446f9935b60f4"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerShared.lua": {
+      "sha256": "9eda989a81824d6084e3b652282761d563c70fd11ed60e42753c96ea988fd245"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSlots.lua": {
+      "sha256": "292dfad157eda3eacc850536a99b24fab60e20a1f30c56c5bceef8cc78c59e41"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSources.lua": {
+      "sha256": "11c7d3daa3e3b9e3f98253780c53e92159b69f782a99f8da50f3bf41cb3ec6c0"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerUtil.lua": {
+      "sha256": "9ab64ec19e5afc6367c96d9a338931b8854261a6f7d5b5b6c393ca81cf0e40e7"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_CustomAuraButton.lua": {
+      "sha256": "d9b5020ec9ae55baa7ed6de6902f986c6e21e5f8efebb4474cf47df3daef5de4"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_CustomAuraContainer.lua": {
+      "sha256": "f35241eb1fd3d6fa89f177de568cc9137cee14193e9ecb43fc98be91f6b0ffd0"
+    },
+    "Interface/AddOns/Blizzard_AuraContainer/Blizzard_ManagedAuraContainer.lua": {
+      "sha256": "a57f2d2f20d2b86e196152ad6e3f495c286b3161eb5ca27b36720c94a05c856b"
+    }
+  }
+}
